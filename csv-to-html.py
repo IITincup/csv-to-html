@@ -9,6 +9,9 @@ def readcsvs():
   # Change the values of column End Date to "datetime" so it can be sorted later
   fileOne['End Date'] = pd.to_datetime(fileOne['End Date'])
   
+  fileOne['Auth Code'] = fileOne['Auth Code'].astype('string')
+  fileTwo['Auth Code'] = fileTwo['Auth Code'].astype('string')
+  
   # Colums that will not be displayed in the table
   columnsToHide = [
     'Opportunity Type',
@@ -18,7 +21,7 @@ def readcsvs():
     'Opportunity Name']
   
   # merge the files and sort the table by End Date
-  merged = fileOne.merge(fileTwo, on='Auth Code', how="left").sort_values('End Date', ignore_index=True)
+  merged = fileOne.merge(fileTwo, on='Auth Code', how="outer").sort_values('End Date', ignore_index=True)
   
   # format the End Date column
   merged['End Date'] = merged['End Date'].dt.strftime('%d/%m/%Y')
