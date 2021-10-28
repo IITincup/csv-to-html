@@ -6,33 +6,41 @@ def readcsvs():
   fileOne = pd.read_csv(sys.argv[1])
   fileTwo = pd.read_csv(sys.argv[2])
   
-  # Change the values of column End Date to "datetime" so it can be sorted later
   fileOne['End Date'] = pd.to_datetime(fileOne['End Date'])
   
   fileOne['Auth Code'] = fileOne['Auth Code'].astype('string')
   fileTwo['Auth Code'] = fileTwo['Auth Code'].astype('string')
   
   # Colums that will not be displayed in the table
-  columnsToHide = [
-    'Opportunity Type',
-    'Asset (custom): Asset Name',
-    'Close Date','Quote Line Item',
-    'Product Name','Product Code_y',
-    'Opportunity Name']
+  columnsToHide = []
   
   # merge the files and sort the table by End Date
-  merged = fileOne.merge(fileTwo, on='Auth Code', how="outer").sort_values('End Date', ignore_index=True)
+  merged = fileOne.merge(fileTwo, on='Auth Code', how="outer").sort_values('End Date',ignore_index=True)
   
   # format the End Date column
-  merged['End Date'] = merged['End Date'].dt.strftime('%d/%m/%Y')
+  list = [str((d-pd.Timestamp.today()).days+1) + " Days " + d.strftime('%d/%m/%Y') for d in fileOne['End Date']]
+  list.sort(key=getDay)
   
-  # hide unwaqnted columns and convert the table object into a string with html style table
+  lessThenWeek = sum(int(i.split(" ")[0]) <= 7 for i in list)
+  
+  for x in range(len(merged.index)-len(list)):
+    list.append(10000)
+  
+  merged['End Date'] = list
+  
+  mergedLessThenWeek = merged[:lessThenWeek]
+  mergedMoreThenWeek = merged[lessThenWeek:]
+  
+  # hide unwanted columns and convert the table object into a string with html style table
   merged = merged.style.hide_columns(columnsToHide).to_html()
   
-  return merged
+  mergedLessThenWeek = mergedLessThenWeek.style.hide_columns(columnsToHide).set_properties(subset=['End Date'], **{'width': '140px'}).to_html()
+  mergedMoreThenWeek = mergedMoreThenWeek.style.hide_columns(columnsToHide).set_properties(subset=['End Date'], **{'width': '165px'}).to_html()
+  
+  return mergedLessThenWeek, mergedMoreThenWeek
 
 # function that takes the html table string and create an html file with the table included
-def createOutput(mergedFiles):
+def createOutput(mergedLessThenWeek, mergedMoreThenWeek):
   html_template ="""<html>
 <head>
 <title>Client device table</title>
@@ -40,17 +48,25 @@ def createOutput(mergedFiles):
 </head>
 <body>
 <div class="container">
+<h2>Expire withing 1 week</h2>
+{}
+<br>
+<h2>Expire after 1 week</h2>
 {}
 </div>
-</body>
+</body>w
 </html>
-  """.format(mergedFiles)
+  """.format(mergedLessThenWeek, mergedMoreThenWeek)
   
   # create the html file
   with open("file.html", "w") as file:
       file.write(html_template)
 
+def getDay(elem):
+  return int(elem.split(" ")[0])
+
+
 # call all functions
 if __name__ == "__main__":
-  mergedFiles = readcsvs()
-  createOutput(mergedFiles)
+  mergedLessThenWeek, mergedMoreThenWeek = readcsvs()
+  createOutput(mergedLessThenWeek, mergedMoreThenWeek)
