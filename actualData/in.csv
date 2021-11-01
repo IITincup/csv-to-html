@@ -1,0 +1,71 @@
+Account Name,Asset (custom): Asset Name,Product Code,Product: Product Name,Serial Number,Auth Code,End Date
+Company A,PAN-PA-220-LAB - License - Asset,PAN-PA-220-LAB,Palo Alto Networks PA-220 Lab Unit,12801020445,12210026,10/4/2023
+Company B,PAN-VM-100-PERP-BND2-PREM-3YR - License - Asset,PAN-VM-100-PERP-BND2-PREM-3YR,"Palo Alto Networks Perpetual Bundle (BND2) for VM-Series that includes VM-100, threat prevention, DNS Security, PANDB URL filtering, Global Protect and WildFire subscriptions, and Premium Support, 3 year",7051000054103,52854017,10/28/2021
+Company B,PAN-VM-100-PERP-BND2-PREM-3YR - License - Asset,PAN-VM-100-PERP-BND2-PREM-3YR,"Palo Alto Networks Perpetual Bundle (BND2) for VM-Series that includes VM-100, threat prevention, DNS Security, PANDB URL filtering, Global Protect and WildFire subscriptions, and Premium Support, 3 year",7051000054436,52854017,10/28/2021
+Company B,PAN-PA-820 - License - Asset,PAN-PA-820,Palo Alto Networks PA-820,12001022206,48893463,11/28/2021
+Company B,PAN-PA-820 - License - Asset,PAN-PA-820,Palo Alto Networks PA-820,12001022183,74631836,11/28/2021
+Company B,PAN-VM-100-PERP-BND2-PREM-3YR - License - Asset,PAN-VM-100-PERP-BND2-PREM-3YR,"Palo Alto Networks Perpetual Bundle (BND2) for VM-Series that includes VM-100, threat prevention, DNS Security, PANDB URL filtering, Global Protect and WildFire subscriptions, and Premium Support, 3 year",VM0000070104,52854017,10/28/2021
+Company C,PAN-PA-220-LAB - License - Asset,PAN-PA-220-LAB,Palo Alto Networks PA-220 Lab Unit,12801030045,12210022,12/11/2021
+Company C,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801032401,12210028,1/8/2022
+Company D,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801035158,63161580,1/14/2022
+Company E,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801141837,F69958454,5/2/2022
+Company F,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801101347,57520034,5/2/2022
+Company F,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801101351,32527403,5/2/2022
+Company F,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801101332,30804445,5/2/2022
+Company F,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801101289,58000980,5/2/2022
+Company F,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801073573,73391364,5/2/2022
+Company F,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801101706,25822537,5/2/2022
+Company F,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801101420,15687404,5/2/2022
+Company F,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801101092,54296403,5/2/2022
+Company F,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801101338,24357458,5/2/2022
+Company F,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801101456,68316112,5/2/2022
+Company F,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801104631,38200933,5/2/2022
+Company F,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801104634,69521301,5/2/2022
+Company F,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801101895,69854220,5/2/2022
+Company F,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801134246,65078862,5/2/2022
+Company F,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801101497,37534479,5/2/2022
+Company F,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801101091,86649791,5/2/2022
+Company F,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801104549,58973179,5/2/2022
+Company F,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801104485,54188847,5/2/2022
+Company F,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801101752,75466348,5/2/2022
+Company F,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801101324,19756982,5/2/2022
+Company F,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801101453,70503605,5/2/2022
+Company F,PAN-PA-820 - License - Asset,PAN-PA-820,Palo Alto Networks PA-820,12001028437,94064965,5/2/2022
+Company F,PAN-PA-820 - License - Asset,PAN-PA-820,Palo Alto Networks PA-820,12001028382,53818431,5/2/2022
+Company F,PAN-PA-820 - License - Asset,PAN-PA-820,Palo Alto Networks PA-820,12001028478,85720968,5/2/2022
+Company F,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801101693,97706339,5/2/2022
+Company F,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801101342,17080175,5/2/2022
+Company F,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801101717,31140230,5/2/2022
+Company F,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801101753,55264258,5/2/2022
+Company F,PAN-PA-820 - License - Asset,PAN-PA-820,Palo Alto Networks PA-820,12001028444,90658665,5/2/2022
+Company F,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801101709,26162348,5/2/2022
+Company F,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801101423,15932951,5/2/2022
+Company F,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801101089,94502616,5/2/2022
+Company F,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801101694,98511479,5/2/2022
+Company G,PAN-VM-500-PERP-BND2-PREM-3YR - License - Asset,PAN-VM-500-PERP-BND2-PREM-3YR,"Palo Alto Networks Perpetual Bundle (BND2) for VM-Series that includes VM-500, threat prevention, DNS Security, PANDB URL filtering, Global Protect and WildFire subscriptions, and Premium Support, 3 year",15454000001816,61905575,7/31/2024
+Company G,PAN-PA-850 - License - Asset,PAN-PA-850,Palo Alto Networks PA-850,11901034308,17200822,8/23/2025
+Company G,PAN-PA-850 - License - Asset,PAN-PA-850,Palo Alto Networks PA-850,11901034316,88409537,8/23/2025
+Company G,PAN-VM-500-PERP-BND2-PREM-3YR - License - Asset,PAN-VM-500-PERP-BND2-PREM-3YR,"Palo Alto Networks Perpetual Bundle (BND2) for VM-Series that includes VM-500, threat prevention, DNS Security, PANDB URL filtering, Global Protect and WildFire subscriptions, and Premium Support, 3 year",VM0000059307,61905575,7/31/2024
+Company H,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801046800,14010567,4/20/2023
+Company H,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801046513,17545076,4/20/2023
+Company H,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801046511,89492315,4/20/2023
+Company H,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801046427,10010763,4/20/2023
+Company H,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801043938,60901874,3/12/2024
+Company H,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801043880,10746422,3/12/2024
+Company I,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801181343,67706019,11/1/2021
+Company I,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801141505,80982114,11/8/2021
+Company I,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801181339,64936150,11/1/2021
+Company I,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801182786,93871911,11/8/2021
+Company I,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801181226,19599446,11/1/2021
+Company I,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801183256,56879302,11/8/2021
+Company I,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801138880,28784867,11/8/2021
+Company I,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801181344,92781981,11/1/2021
+Company I,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801181296,77869220,11/1/2021
+Company I,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801181033,93112499,11/1/2021
+Company I,PAN-PA-220 - License - Asset,PAN-PA-220-TP,Palo Alto Networks PA-220,12801181033,75871069,11/26/2021
+Company I,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801182831,88733866,11/8/2021
+Company I,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801181356,44253790,11/1/2021
+Company I,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801180420,29555358,11/1/2021
+Company I,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801136980,81970701,12/21/2021
+Company I,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801146267,11754661,2/14/2022
+Company I,PAN-PA-220 - License - Asset,PAN-PA-220,Palo Alto Networks PA-220,12801146100,38988355,2/14/2022

@@ -60,13 +60,63 @@ def createOutput(mergedLessThenWeek, mergedMoreThenWeek):
   
   # create the html file
   with open("file.html", "w") as file:
-      file.write(html_template)
+    file.write(html_template)
 
 def getDay(elem):
   return int(elem.split(" ")[0])
 
+def createCSS():
+  css_template = """* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: auto;
+  width: 90%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+th{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  font-size: 1.2rem;
+  background-color: #047baa;
+  color: white;
+}
+
+td{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  text-align: left;
+  font-size: 1.1rem;
+}
+
+tr:nth-child(even) {
+  background-color: #b8b8b8;
+}
+
+/* tr:nth-child(even) td{
+  border-right: 2px solid white;
+}
+
+tr:nth-child(odd) td{
+  border-right: 2px solid #b8b8b8;
+} */
+"""
+
+  with open("main.css", "w") as file:
+    file.write(css_template)
 
 # call all functions
 if __name__ == "__main__":
   mergedLessThenWeek, mergedMoreThenWeek = readcsvs()
   createOutput(mergedLessThenWeek, mergedMoreThenWeek)
+  createCSS()
